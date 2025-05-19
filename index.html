@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <h2>UI/UX</h2>
+            <div class="loader-progress">
+                <div class="loader-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="#home">Hina Azhar</a>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+            <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-footer">
+            <div class="social-links">
+                <a href="#" class="social-link">Dribbble</a>
+                <a href="#" class="social-link">Behance</a>
+                <a href="#" class="social-link">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text reveal-text">
+                        <h1>UI/UX Designer <span class="highlight">&</span> <br>Visual Developer</h1>
+                        <p>Creating intuitive and engaging digital experiences that connect with users.</p>
+                        <div class="hero-cta">
+                            <a href="#projects" class="btn primary-btn">View Projects</a>
+                            <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <!-- <img src="H:\hina-portfolio\index.html" alt="Designer illustration"> -->
+                            <div class="floating-element elem1"></div>
+                            <div class="floating-element elem2"></div>
+                            <div class="floating-element elem3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div class="arrow">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="image-frame">
+                            <img src="/images/hina.jpeg" alt="Designer portrait">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Hello, I'm <span class="highlight">Hina</span></h3>
+                        <p>I'm an aspiring UI/UX designer and software engineer with hands-on experience in developing user-centered digital solutions. I bring a blend of design thinking and technical skills, with recent work in responsive web interfaces and UI/UX design using Figma.</p>
+                        <p>I believe that impactful design is not just about visuals, but about solving real problems. My projects—from e-commerce sites to mobile learning apps—reflect a commitment to functionality, user needs, and continuous improvement through research and iteration.</p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h4>2+</h4>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>10+</h4>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>3+</h4>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn primary-btn">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-content">
+                    <div class="skills-text">
+                        <h3>Design <span class="highlight">Expertise</span></h3>
+                        <p>My diverse skill set allows me to handle projects from concept to completion, ensuring a cohesive and polished final product.</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="fade-up">
+                            <div class="skill-icon">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h4>UI Design</h4>
+                            <p>Creating visually appealing interfaces with attention to detail, color theory, and typography.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-icon">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h4>UX Research</h4>
+                            <p>Conducting user research, creating personas, and mapping user journeys to inform design decisions.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h4>Prototyping</h4>
+                            <p>Building interactive prototypes to test and validate design concepts before development.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h4>Visual Design</h4>
+                            <p>Creating cohesive visual systems, including illustrations, icons, and brand elements.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="skill-icon">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h4>Interaction Design</h4>
+                            <p>Designing meaningful animations and transitions that enhance the user experience.</p>
+                        </div>
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="skill-icon">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h4>Frontend Development</h4>
+                            <p>Implementing designs with HTML, CSS, and JavaScript to ensure pixel-perfect execution.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <h3>Tools & Technologies</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">Figma</div>
+                        <div class="tool-item">Adobe XD</div>
+                        <div class="tool-item">Photoshop</div>
+                        <div class="tool-item">Illustrator</div>
+                        <div class="tool-item">Sketch</div>
+                        <div class="tool-item">InVision</div>
+                        <div class="tool-item">HTML/CSS</div>
+                        <div class="tool-item">JavaScript</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/fyp.png" alt="Summedify Website">
+                            <div class="project-overlay">
+                                <a href="https://www.summedify.com" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>My FYP Project</h3>
+                            <p>Summedify: Media Summarizer and Translator</p>
+                            <div class="project-tags">
+                                <span>Web Design</span>
+                                <span>UX Research</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="images/fyp-d.png" alt="App">
+                            <div class="project-overlay">
+                                <a href="https://www.figma.com/design/PSQRmiMUo20ftAJqDLukxa/Summedify?node-id=0-1&p=f" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Summedify Design</h3>
+                            <p>A Web application designed.</p>
+                            <div class="project-tags">
+                                <span>Web App</span>
+                                <span>UI Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="branding">
+                        <div class="project-image">
+                            <img src="images/max.png" alt="Tech Startup Branding">
+                            <div class="project-overlay">
+                                <a href="https://www.figma.com/design/2MZrs0PoQ4IHxlUIIsiXnm/project?node-id=0-1&p=f" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Max Startup Branding</h3>
+                            <p>Complete brand identity design for an emerging startup in the world space.</p>
+                            <div class="project-tags">
+                                <span>Branding</span>
+                                <span>Visual Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="/placeholder.svg?height=600&width=800" alt="Financial Dashboard">
+                            <div class="project-overlay">
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Financial Dashboard</h3>
+                            <p>A complex data visualization dashboard for financial analytics and reporting.</p>
+                            <div class="project-tags">
+                                <span>Web App</span>
+                                <span>Dashboard Design</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="projects-cta">
+                    <a href="#" class="btn primary-btn">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Design Process</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="process-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-number">01</div>
+                        <div class="timeline-content">
+                            <h3>Research</h3>
+                            <p>Understanding the problem space, user needs, and business goals through comprehensive research.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">02</div>
+                        <div class="timeline-content">
+                            <h3>Strategy</h3>
+                            <p>Developing a clear strategy and roadmap based on research insights and project objectives.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">03</div>
+                        <div class="timeline-content">
+                            <h3>Design</h3>
+                            <p>Creating wireframes, visual designs, and interactive prototypes with a focus on usability.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">04</div>
+                        <div class="timeline-content">
+                            <h3>Testing</h3>
+                            <p>Validating designs through user testing and iterating based on feedback and insights.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">05</div>
+                        <div class="timeline-content">
+                            <h3>Implementation</h3>
+                            <p>Working closely with developers to ensure the design is implemented with precision.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Client Testimonials</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="testimonials-slider">
+                    <div class="testimonial-item active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>Working with Alex was a game-changer for our product. Their attention to detail and user-centered approach transformed our app into something our customers love to use.</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="images/sarah.jpeg" alt="Sarah Johnson">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>Product Manager, TechCorp</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>The redesign of our e-commerce platform led to a 40% increase in conversions. Alex's strategic approach to UX made all the difference in our user engagement metrics.</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="images/man.jpeg" alt="Michael Chen">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Michael Chen</h4>
+                                    <p>CEO, ShopWave</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p>Hina delivered a brand identity that perfectly captured our company's vision. Their collaborative process and creative solutions exceeded our expectations.</p>
+                            <div class="testimonial-author">
+                                <div class="author-image">
+                                    <img src="images/osteen.jpg" alt="Emma Rodriguez">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Hina Azhar</h4>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev-testimonial">
+                        <span class="arrow-left"></span>
+                    </button>
+                    <div class="testimonial-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="next-testimonial">
+                        <span class="arrow-right"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's <span class="highlight">Connect</span></h3>
+                        <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <div class="icon-circle"></div>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <p>hinaazhar347@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <div class="icon-circle"></div>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <p>+92 306 5419877</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <div class="icon-circle"></div>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>Rawalpindi, Punjab, Pakistan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Dribbble</a>
+                            <a href="#" class="social-link">Behance</a>
+                            <a href="https://www.linkedin.com/in/hina-azhar-144238231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">LinkedIn</a>
+                            <a href="https://www.instagram.com/thehinahues?igsh=enpxenhhdTdiMWIz" class="social-link">Instagram</a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">portfolio.</a>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 UI/UX Designer Portfolio. All rights reserved.</p>
+                <a href="#home" class="back-to-top">
+                    <span class="arrow-up"></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
